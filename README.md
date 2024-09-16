@@ -35,19 +35,19 @@ After conducting exploratory data analysis 🔍, the results showed that neutral
 
 We have an image displaying a dataframe and a list of features. We'll use the 'text' feature as input and the 'sentiment' feature as the target variable 🎯. Our objective is to predict whether a text will be classified as positive, negative, or neutral.
 
-<img src = "https://github.com/suhasmaddali/Twitter-Sentiment-Analysis/blob/main/images/Input.jpg"/>
+<img src = "https://github.com/harshalgondaliya/twitter_sentiment_analysis/blob/main/images/Input.jpg"/>
 
 The countplot below illustrates that the majority of texts are classified as neutral sentiment, while the count of negative and positive texts is comparatively lower. This indicates a higher prevalence of neutral sentiments in the dataset.
 
-<img src = "https://github.com/suhasmaddali/Twitter-Sentiment-Analysis/blob/main/images/chart.jpg"/>
+<img src = "https://github.com/harshalgondaliya/twitter_sentiment_analysis/blob/main/images/chart.jpg"/>
 
 Wordcloud gives a good representation by the presence of words based on their size. In other words, more frequent words appear in higher size as compared to others. Words such as "thank" and "day" are used most often in the positive tweets. 
 
-<img src = "https://github.com/suhasmaddali/Twitter-Sentiment-Analysis/blob/main/images/Positive.jpg"/>
+<img src = "https://github.com/harshalgondaliya/twitter_sentiment_analysis/blob/main/images/Positive.jpg"/>
 
 The wordcloud provided showcases negative tweets within the dataset. Notably, recurring words like "hate" and "sad" are prevalent, indicating their significance in identifying negative sentiment.
 
-<img src = "https://github.com/suhasmaddali/Twitter-Sentiment-Analysis/blob/main/images/Negative.jpg"/>
+<img src = "https://github.com/harshalgondaliya/twitter_sentiment_analysis/blob/main/images/Negative.jpg"/>
 
 ## Hyperparameter Tuning 
 
@@ -57,4 +57,4 @@ In our project, after thoroughly understanding various machine learning models, 
 
 The noticeable gap between the training loss and test loss indicates potential overfitting in the model 🎯. However, the model may still be useful for making predictions, as it could generalize well to unseen test data, despite its exceptionally strong performance on the training set.
 
-<img src = "https://github.com/suhasmaddali/Twitter-Sentiment-Analysis/blob/main/images/Performance.jpg"/>
+<img src = "https://github.com/harshalgondaliya/twitter_sentiment_analysis/blob/main/images/Performance.jpg"/>
